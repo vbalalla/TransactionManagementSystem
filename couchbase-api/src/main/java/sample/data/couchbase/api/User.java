@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package sample.data.couchbase;
+package sample.data.couchbase.api;
 
 import com.couchbase.client.java.repository.annotation.Field;
 import com.couchbase.client.java.repository.annotation.Id;

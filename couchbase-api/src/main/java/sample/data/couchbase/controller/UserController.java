@@ -1,4 +1,4 @@
-package sample.data.couchbase;
+package sample.data.couchbase.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;

@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package sample.data.couchbase;
+package sample.data.couchbase.model;
 
 import org.springframework.data.couchbase.core.query.ViewIndexed;
 import org.springframework.data.couchbase.repository.CouchbaseRepository;
+import sample.data.couchbase.api.User;
 
 @ViewIndexed(designDoc = "user", viewName = "all")
 public interface UserRepository extends CouchbaseRepository<User, String> {

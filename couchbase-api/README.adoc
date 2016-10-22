@@ -17,7 +17,7 @@ it `all` with `user` as document name. On that view, you need to change the code
 
 ```java
 function (doc, meta) {
-  if (doc._class == "sample.data.couchbase.User") {
+  if (doc._class == "sample.data.couchbase.api.User") {
     emit(meta.id, null);
   }
 }
