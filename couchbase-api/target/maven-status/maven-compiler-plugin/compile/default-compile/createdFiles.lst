@@ -1,0 +1,4 @@
+sample/data/couchbase/model/UserRepository.class
+sample/data/couchbase/SampleCouchbaseApplication.class
+sample/data/couchbase/api/User.class
+sample/data/couchbase/controller/UserController.class
